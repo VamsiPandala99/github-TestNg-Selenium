@@ -23,10 +23,12 @@
 hs_err_pid*
 replay_pid*
 
+#ignore custom files from project code
+
 target
 .classpath
 .project
 .settings
 classes/
 lib/
-.*log
+*.log
